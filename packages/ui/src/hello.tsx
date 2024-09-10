@@ -1,10 +1,10 @@
-import { AppBar, Box, Typography } from "@mui/material";
+import { AppBar, Box, Toolbar } from "@mui/material";
 
 export const Hello = () => {
   return (
     <AppBar>
       <Box>
-        <Typography>Hello!</Typography>
+        <Toolbar disableGutters>Hello</Toolbar>
       </Box>
     </AppBar>
   );
