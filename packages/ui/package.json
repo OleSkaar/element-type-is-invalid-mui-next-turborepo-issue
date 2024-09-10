@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
-    "./hello": {
-      "types": "./src/hello.tsx",
-      "default": "./dist/hello.js"
+    "./header": {
+      "types": "./src/header.tsx",
+      "default": "./dist/header.js"
     }
   },
   "scripts": {
@@ -27,5 +27,6 @@
     "@types/react-dom": "^18.2.19",
     "eslint": "^8.57.0",
     "typescript": "catalog:"
-  }  
+  },
+  "type": "module"
 }

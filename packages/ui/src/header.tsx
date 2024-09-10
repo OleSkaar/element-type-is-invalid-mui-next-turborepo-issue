@@ -1,10 +1,10 @@
 import { AppBar, Box, Toolbar } from "@mui/material";
 
-export const Hello = () => {
+export const Header = () => {
   return (
     <AppBar>
       <Box>
-        <Toolbar disableGutters>Hello</Toolbar>
+        <Toolbar disableGutters>Header</Toolbar>
       </Box>
     </AppBar>
   );
