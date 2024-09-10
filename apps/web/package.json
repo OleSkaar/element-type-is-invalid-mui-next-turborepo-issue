@@ -9,16 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/cache": "^11.13.1",
+    "@emotion/cache": "11.13.1",
     "@emotion/react": "catalog:",
     "@emotion/styled": "catalog:",
     "@mui/material": "catalog:",
-    "@mui/material-nextjs": "^6.0.2",
+    "@mui/material-nextjs": "5.16.6",
     "@repo/ui": "workspace:*",
     "next": "14.2.8",
     "react": "catalog:",
     "react-dom": "catalog:",
-    "server-only": "^0.0.1"
+    "server-only": "catalog:"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",

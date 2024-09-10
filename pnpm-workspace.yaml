@@ -8,4 +8,5 @@ catalog:
   '@mui/material': 5.16.6
   react: 18.3.1
   react-dom: 18.3.1
+  server-only: 0.0.1
   typescript: 5.5.4
