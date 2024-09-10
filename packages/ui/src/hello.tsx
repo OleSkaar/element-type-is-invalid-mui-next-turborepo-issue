@@ -1,9 +1,11 @@
-import { Box, Typography } from "@mui/material";
+import { AppBar, Box, Typography } from "@mui/material";
 
 export const Hello = () => {
   return (
-    <Box>
-      <Typography>Hello!</Typography>
-    </Box>
+    <AppBar>
+      <Box>
+        <Typography>Hello!</Typography>
+      </Box>
+    </AppBar>
   );
 };

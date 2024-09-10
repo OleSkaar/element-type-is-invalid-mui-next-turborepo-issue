@@ -17,7 +17,8 @@
     "@repo/ui": "workspace:*",
     "next": "14.2.8",
     "react": "catalog:",
-    "react-dom": "catalog:"
+    "react-dom": "catalog:",
+    "server-only": "^0.0.1"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
@@ -27,6 +28,6 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.6",
-    "typescript": "^5"
+    "typescript": "catalog:"
   }
 }
