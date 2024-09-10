@@ -1,4 +1,9 @@
 {
+  "browserslist": [
+    "last 1 version",
+    "> 0.5%",
+    "not dead"
+  ],
   "name": "web",
   "version": "0.1.0",
   "private": true,
@@ -29,5 +34,6 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.6",
     "typescript": "catalog:"
-  }
+  },
+  "type": "module"
 }
